@@ -1,0 +1,45 @@
+.place-order {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 60px;
+    margin-top: 100px;
+    margin-bottom: 55px;
+    
+
+}
+
+.place-order-left {
+    width: 100%;
+    max-width: max(30%, 500px);
+}
+
+.place-order-left.title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.place-order .multi-feilds {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    height: 55px;
+}
+
+.email-street input {
+    display: flex;
+    flex-direction: column;
+    height: 35px;
+    width: 94%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+}
+.place-order .phone{
+    height: 35px;
+    width: 94%;
+    padding: 10px;
+    margin-left: 10px;
+}

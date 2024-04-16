@@ -1,0 +1,33 @@
+
+.food-item{
+    width:100px;
+    border-radius: 15px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 0px #00000015;
+}
+ .food-item-image{
+    width:250%;
+    border-radius:10%;
+}
+.food-item-ima-container{
+    position:relative;
+}
+.food-item-ima-container .add{
+    width:35px;
+    position: absolute;
+    bottom:15px;
+    left:180px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.food-item-counter{
+    position:absolute;
+    bottom:15px;
+    left: 115px;
+    display:flex;
+    align-items: center;
+    gap:10px;
+    padding:6px;
+    border-radius:50px;
+    background-color: aliceblue;
+}
